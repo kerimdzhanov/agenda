@@ -646,7 +646,7 @@ Saves the `job.attrs` into the database.
 
 ```js
 job.save(function(err) {
-    if(!err) console.log("Successfully saved job to collection");
+  if (!err) console.log("Successfully saved job to collection");
 })
 ```
 
@@ -656,7 +656,7 @@ Removes the `job` from the database.
 
 ```js
 job.remove(function(err) {
-    if(!err) console.log("Successfully removed job from collection");
+  if (!err) console.log("Successfully removed job from collection");
 })
 ```
 
